@@ -187,7 +187,7 @@ export default function Signup() {
                 </div>
               </div>
 
-           
+{/*            
               <label
                 htmlFor="signup-role"
                 className="form-label fw-semibold"
@@ -206,7 +206,7 @@ export default function Signup() {
                 <option value="ADMIN">Admin</option>
                 <option value="FACULTY">Faculty</option>
                 <option value="STUDENT">Student</option>
-              </select>
+              </select> */}
 
             
               <button

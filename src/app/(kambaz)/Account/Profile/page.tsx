@@ -182,6 +182,7 @@ export default function Profile() {
               <label className="form-label fw-semibold">Role</label>
               <select
                 style={field}
+                disabled
                 value={profile.role ?? "STUDENT"}
                 onChange={(e) =>
                   setProfile({ ...profile, role: e.target.value })
