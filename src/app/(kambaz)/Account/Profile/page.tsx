@@ -158,7 +158,7 @@ export default function Profile() {
                   <input
                     type="date"
                     style={field}
-                    value={profile.dob ?? ""}
+                    value={profile.dob ? profile.dob.substring(0, 10) : ""}
                     onChange={(e) =>
                       setProfile({ ...profile, dob: e.target.value })
                     }
